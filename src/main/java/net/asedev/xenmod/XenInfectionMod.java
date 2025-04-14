@@ -1,5 +1,9 @@
 package net.asedev.xenmod;
 
+import net.asedev.registry.RegCreativeTab;
+import net.asedev.registry.RegEntities;
+import net.asedev.registry.RegItems;
+import net.asedev.registry.RegSounds;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -41,7 +45,10 @@ public class XenInfectionMod
 
         modEventBus.addListener(this::commonSetup);
 
-        // RegCreativeTab.register(modEventBus);
+        RegCreativeTab.register(modEventBus);
+        RegSounds.register(modEventBus);
+        RegItems.register(modEventBus);
+        RegEntities.register(modEventBus);
 
 
 

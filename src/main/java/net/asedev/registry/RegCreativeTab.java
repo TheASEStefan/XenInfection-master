@@ -17,11 +17,12 @@ import net.asedev.xenmod.XenInfectionMod;
  */
 public class RegCreativeTab
 {
-    /*
+
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, Embedded.MOD_ID);
 
-    public static final RegistryObject<CreativeModeTab> ITEM = TABS.register("items", () -> CreativeModeTab.builder().title(Component.translatable("itemGroup." + Embedded.MOD_ID + ".item")).icon(() -> new ItemStack(Items.ROTTEN_FLESH)).displayItems((enabledFeatures, entries) ->
+    public static final RegistryObject<CreativeModeTab> ITEM = TABS.register("items", () -> CreativeModeTab.builder().title(Component.translatable("itemGroup." + Embedded.MOD_ID + ".item")).icon(() -> new ItemStack(RegItems.HEADCRAB_SPAWN_EGG.get())).displayItems((enabledFeatures, entries) ->
     {
+        entries.accept(RegItems.HEADCRAB_SPAWN_EGG.get());
 
     }).build());
 
@@ -29,6 +30,6 @@ public class RegCreativeTab
     {
         TABS.register(eventBus);
     }
-     */
+
 }
 

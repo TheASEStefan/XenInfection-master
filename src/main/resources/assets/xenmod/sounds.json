@@ -1,3 +1,65 @@
 {
+  "beamstart":
+  {
+    "sounds":
+    [
+      "xenmod:portal/beamstart1",
+      "xenmod:portal/beamstart2",
+      "xenmod:portal/beamstart3"
+    ],
+    "subtitle": "subtitles.xenmod.beamstart"
+  },
+
+  "hc_attack":
+  {
+    "sounds":
+    [
+      "xenmod:mob/hc_attack2",
+      "xenmod:mob/hc_attack3"
+    ],
+    "subtitle": "subtitles.xenmod.hc_attack"
+  },
+
+  "hc_die":
+  {
+    "sounds":
+    [
+      "xenmod:mob/hc_die1",
+      "xenmod:mob/hc_die2"
+    ],
+    "subtitle": "subtitles.xenmod.hc_die"
+  },
+
+  "hc_headbite":
+  {
+    "sounds":
+    [
+      "xenmod:mob/hc_headbite"
+    ],
+    "subtitle": "subtitles.xenmod.hc_headbite"
+  },
+
+  "hc_idle":
+  {
+    "sounds":
+    [
+      "xenmod:mob/hc_idle3",
+      "xenmod:mob/hc_idle4",
+      "xenmod:mob/hc_idle5"
+    ],
+    "subtitle": "subtitles.xenmod.hc_idle"
+  },
+
+  "hc_pain":
+  {
+    "sounds":
+    [
+      "xenmod:mob/hc_pain1",
+      "xenmod:mob/hc_pain2",
+      "xenmod:mob/hc_pain3"
+    ],
+    "subtitle": "subtitles.xenmod.hc_pain"
+  }
+
 
 }

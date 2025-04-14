@@ -1,4 +1,17 @@
 {
 
-  "itemGroup.xenmod.item": "Xen Infection"
+  "itemGroup.xenmod.item": "Xen Infection",
+
+  "item.xenmod.headcrab_spawn_egg": "Headcrab Spawn Egg",
+
+  "entity.xenmod.xen_portal": "Xen Portal",
+  "entity.xenmod.headcrab": "Headcrab",
+
+  "subtitles.xenmod.beamstart": "Portal opens or closes!",
+  "subtitles.xenmod.hc_attack": "Headcrab lunges and attacks!",
+  "subtitles.xenmod.hc_die": "Headcrab dies",
+  "subtitles.xenmod.hc_headbite": "Headcrab bites head",
+  "subtitles.xenmod.hc_idle": "Headcrab shrieks",
+  "subtitles.xenmod.hc_pain": "Headcrab hurts"
+
 }

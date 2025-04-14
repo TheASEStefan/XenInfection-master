@@ -36,6 +36,11 @@ public class UtilsMath
         return (float) 1 / size;
     }
 
+    public static int toSquare(float sqr)
+    {
+        return ((int) (sqr * sqr));
+    }
+
     // It doesn't represent the normal logarithm.
     public static float randLog(float base, float exponent)
     {
